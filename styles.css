@@ -1,0 +1,59 @@
+
+body {
+    background: rgb(214, 117, 159);
+    background: radial-gradient(circle, rgb(194, 120, 152) 0%, rgb(92, 154, 224) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #444;
+}
+
+form {
+    margin: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #1e00ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button#testBtn {
+    padding: 5px 10px;
+    background-color: #1e00ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+#pokeInfo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 150px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
